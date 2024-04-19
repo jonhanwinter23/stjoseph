@@ -8,11 +8,11 @@
 
 @font-face {
     font-family: 'KantumruyPro-Bold';
-    src: url('fonts/KantumruyPro-Bold.ttf') format('truetype');
+    src: url('/fonts/KantumruyPro-Bold.ttf') format('truetype');
 }
 @font-face {
     font-family: 'KantumruyPro-Regular';
-    src: url('fonts/Kantumruy-Regular.ttf') format('truetype');
+    src: url('/fonts/Kantumruy-Regular.ttf') format('truetype');
 }
 
 [class^=flaticon-]:before,
