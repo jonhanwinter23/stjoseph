@@ -322,19 +322,19 @@ h6,
 }
 
 .text-uppercase {
-    font-family: 'KantumruyPro-Bold' !important;/* Apply regular font to text-uppercase class */
+    font-family: 'KantumruyPro-regular' !important; /* Apply regular font to text-uppercase class */
 }
 
 .display-5 {
-    font-family: 'KantumruyPro-Bold' !important;/* Apply bold font to display-5 class */
+    font-family: 'KantumruyPro-regular' !important; /* Apply bold font to display-5 class */
 }
 
 .text-white {
-    font-family: 'KantumruyPro-Bold' !important;
+    font-family: 'KantumruyPro-regular' !important;
 }
 
 .text1 {
-    font-family: 'KantumruyPro-Bold' !important;
+    font-family: 'KantumruyPro-regular' !important;
 }
 
 .image-left {
@@ -346,12 +346,12 @@ h6,
 }
 
 .khmer{
-    font-family: 'KantumruyPro-Bold' !important;
+    font-family: 'KantumruyPro-regular' !important;
 
 }
 
 .khmer1{
-    font-family: 'KantumruyPro-Bold' !important;
+    font-family: 'KantumruyPro-regular'
 
 }
 
