@@ -358,3 +358,7 @@ h6,
     padding-left: 50px;
     padding-right: 50px;
 }
+
+.text-khmer {
+    font-family: 'Kantumruy', sans-serif;
+}
