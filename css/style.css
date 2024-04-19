@@ -5,6 +5,8 @@
     --light: #ECF4FF;
     --dark: #120F2D;
 }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khmer:wght@684&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khmer:wght@684&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 @font-face {
     font-family: 'KantumruyPro-Bold';
@@ -323,19 +325,19 @@ h6,
 
 
 .text-uppercase {
-    font-family: 'KantumruyPro-Regular' !important; /* Corrected case */
+    font-family: 'Noto Serif Khmer', serif !important;
 }
 
 .display-5 {
-    font-family: 'KantumruyPro-Regular' !important; /* Corrected case */
+    font-family: 'Noto Serif Khmer', serif !important;
 }
 
 .text-white {
-    font-family: 'KantumruyPro-Regular' !important; /* Corrected case */
+    font-family: 'Noto Serif Khmer', serif !important;
 }
 
 .text1 {
-    font-family: 'KantumruyPro-Regular' !important; /* Corrected case */
+    font-family: 'Noto Serif Khmer', serif !important;
 }
 
 .image-left {
@@ -347,11 +349,11 @@ h6,
 }
 
 .khmer {
-    font-family: 'KantumruyPro-Regular' !important; /* Corrected case */
+    font-family: 'Noto Serif Khmer', serif !important;
 }
 
 .khmer1 {
-    font-family: 'KantumruyPro-Regular'; /* Corrected case */
+    font-family: 'Noto Serif Khmer', serif !important;
 }
 
 .container.py-6 {
@@ -360,5 +362,20 @@ h6,
 }
 
 .text-khmer {
-    font-family: 'Kantumruy', sans-serif;
+    font-family: 'Noto Serif Khmer', serif !important;
+}
+
+.text-white1.English {
+    color: #ffffff; /* New color */
+    font-size: 3rem; /* New font size */
+    font-family: "Roboto", sans-serif;
+}
+
+/* Define font color and size for English h4 elements */
+.h4.English {
+    color: #ffffff; /* New color */
+    font-size: 1rem; /* New font size */
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
