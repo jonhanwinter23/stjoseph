@@ -36,7 +36,16 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
-
+<style>
+    .service-item {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .service-item .position-relative {
+        flex-grow: 1;
+    }
+</style>
 <body>
        <!-- Navbar Start -->
        <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0">
@@ -125,8 +134,8 @@
                         <div class="p-3" style="max-width: 900px;">
                             <h5 class="text-white text-uppercase animated bounceInDown">សូមស្វាគមន៍មកកាន់គេហទំព័រ</h5>
                             <h1 class="display-1 text-white mb-md-4 animated zoomIn">ព្រះសហគមន៍កាតូលិកសន្តយ៉ូសែបផ្សារតូច</h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Mass Schedule</a>
-                            <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Schedule</a>
+                            <a href="/mass.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Mass Schedule</a>
+                            <a href="/history.html" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">History</a>
                         </div>
                     </div>
                 </div>
@@ -136,8 +145,8 @@
                         <div class="p-3" style="max-width: 900px;">
                             <h5 class="text-white text-uppercase animated bounceInDown">St.Joseph Catholic Church</h5>
                             <h1 class="display-1 text-white mb-md-4 animated zoomIn">Church of Martys in Cambodia</h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Mass Schedule</a>
-                            <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Schedule</a>
+                            <a href="/mass.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Mass Schedule</a>
+                            <a href="/history.html" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">History</a>
                         </div>
                     </div>
                 </div>
@@ -169,7 +178,7 @@
                 <div class="col-lg-7">
                     <div class="mb-4">
                         <h5 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h5>
-                        <h1 class="display-5 mb-0">St. Joseph Catholic Church, located in Phnom Penh, Cambodia, has a rich history that reflects the enduring presence of Catholicism in the country.</h1>
+                        <h1 class="display-5 mb-0">St. Joseph Catholic Church, PhnomPenh, Cambodia</h1>
                     </div>
                     <h4 class="text-body fst-italic mb-4"> The presence of the Catholic Church in Cambodia has a complex history marked by periods of growth, decline, and resurgence.</h4>
                     <p class="mb-4">Over the years, St. Joseph Church has witnessed significant historical events and undergone several transformations. During the Khmer Rouge regime (1975-1979), like other religious institutions in Cambodia, St. Joseph Church faced persecution, and its activities were severely restricted. Many priests and religious workers were targeted and killed, and the church itself suffered damage.</p>
@@ -202,70 +211,46 @@
                 <h1 class="display-5 mb-0">Check out our church services</h1>
             </div>
             <div class="row g-5">
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                     <div class="service-item bg-light border-bottom border-5 border-primary rounded">
                         <div class="position-relative p-5">
                             <i class='bx bx-time-five custom-icon1 d-block display-1 fw-normal text-secondary mb-3'></i>
                             <h5 class="text-primary mb-0">Mass Schedule</h5>
                             <h3 class="mb-3">Check out Mass Schedule</h3>
-                            <p>Sunday Mass: 9:00-10:30AM (LocalMass)</p>
-                            <p>Sunday Mass: 10:00-11:30AM (English Mass)</p>
-                            <a href="">Read More<i class="bi bi-arrow-right ms-2"></i></a>
+                            
+                            <a href="/mass.html">Read More<i class="bi bi-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.6s">
                     <div class="service-item bg-light border-bottom border-5 border-primary rounded">
                         <div class="position-relative p-5">
                             <i class="bx bxs-church custom-icon1 display-1 fw-normal text-secondary mb-3"></i>
                             <h5 class="text-primary mb-0">Adoration</h5>
                             <h3 class="mb-3">Check out Adoration Schedule</h3>
-                            <p>Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit</p>
-                            <a href="">Read More<i class="bi bi-arrow-right ms-2"></i></a>
+                            <a href="/mass.html">Read More<i class="bi bi-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.9s">
                     <div class="service-item bg-light border-bottom border-5 border-primary rounded">
                         <div class="position-relative p-5">
                             <i class='bx bx-user custom-icon1 d-block display-1 fw-normal text-secondary mb-3'></i>
                             <h5 class="text-primary mb-0">Confession</h5>
                             <h3 class="mb-3">Check out confession schedule</h3>
-                            <p>Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit</p>
-                            <a href="">Read More<i class="bi bi-arrow-right ms-2"></i></a>
+                            <a href="/mass.html">Read More<i class="bi bi-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+               
+               
+                <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                     <div class="service-item bg-light border-bottom border-5 border-primary rounded">
                         <div class="position-relative p-5">
                             <i class='bx bx-heart-square custom-icon1 d-block display-1 fw-normal text-secondary mb-3'></i>
                             <h5 class="text-primary mb-0">Wedding</h5>
                             <h3 class="mb-3">Check out Wedding Service</h3>
-                            <p>Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit</p>
-                            <a href="">Read More<i class="bi bi-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-                    <div class="service-item bg-light border-bottom border-5 border-primary rounded">
-                        <div class="position-relative p-5">
-                            <i class='bx bx-heart-square custom-icon1 d-block display-1 fw-normal text-secondary mb-3'></i>
-                            <h5 class="text-primary mb-0">Wedding</h5>
-                            <h3 class="mb-3">Check out Wedding Service</h3>
-                            <p>Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit</p>
-                            <a href="">Read More<i class="bi bi-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-                    <div class="service-item bg-light border-bottom border-5 border-primary rounded">
-                        <div class="position-relative p-5">
-                            <i class='bx bx-heart-square custom-icon1 d-block display-1 fw-normal text-secondary mb-3'></i>
-                            <h5 class="text-primary mb-0">Wedding</h5>
-                            <h3 class="mb-3">Check out Wedding Service</h3>
-                            <p>Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit</p>
-                            <a href="">Read More<i class="bi bi-arrow-right ms-2"></i></a>
+                            <a href="/mass.html">Read More<i class="bi bi-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -288,7 +273,7 @@
                         <h1 class="display-5 text-white">ព្រះសហគមន៍កាតូលិកសន្តយ៉ូសែបផ្សារតូច</h1>
                     </div>
                     <p class="text-white mb-4">ជាព្រះសហគមន័កាតូលិកប្រវត្តិសាស្រ្តនៃប្រទេសកម្ពុជា ជាទីសម្គាល់មរណសាក្សីដែលបានបូជាជិវិតនៅសម័យសង្គ្រាម</p>
-                    <a href="" class="text1 btn2 btn-primary py-md-3 px-md-5 me-3">ស្វែងយល់បន្ថែម
+                    <a href="/history.html" class="text1 btn2 btn-primary py-md-3 px-md-5 me-3">ស្វែងយល់បន្ថែម
                     </a>
                     <a href="" class="text1 btn2 btn-secondary py-md-3 px-md-5">បរិច្ចាកវិភាគទាន </a>
                 </div>
@@ -322,8 +307,8 @@
                         
                     </div>
                     <div class="bg-primary text-center rounded-bottom p-4">
-                        <h3 class="text-white">Full Name</h3>
-                        <p class="text-white m-0">Designation</p>
+                        <h3 class="text-white">Reoung Chatsirey</h3>
+                        <p class="text-white m-0">Parish priest</p>
                     </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
@@ -332,7 +317,7 @@
                         
                     </div>
                     <div class="bg-primary text-center rounded-bottom p-4">
-                        <h3 class="text-white">Full Name</h3>
+                        <h3 class="text-white">Lawan...</h3>
                         <p class="text-white m-0">Designation</p>
                     </div>
                 </div>
@@ -400,7 +385,7 @@
                 <h1 class="display-5 mb-0">Latest Articles From Our Church</h1>
             </div>
             <div class="row g-5">
-                <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
                     <div class="blog-item">
                         <div class="position-relative">
                             <img class="img-fluid w-100 rounded-top" src="img/cover-for-cambodia-church.webp" alt="">
@@ -419,7 +404,26 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow slideInUp" data-wow-delay="0.6s">
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="blog-item">
+                        <div class="position-relative">
+                            <img class="img-fluid w-100 rounded-top" src="img/cover-for-cambodia-church.webp" alt="">
+                            <div class="blog-date">
+                                <h5 class="text-white fw-bold mb-0">01</h5>
+                                <h6 class="text-light mb-0">January</h6>
+                            </div>
+                        </div>
+                        <div class="bg-primary rounded-bottom p-5">
+                            <div class="d-flex mb-3">
+                                <span class="text-light text-uppercase">Church News</span>
+                                <span class="text-light px-2">|</span>
+                                <span class="text-light text-uppercase">Title</span>
+                            </div>
+                            <a class="h3 m-0 text-white" href="">Kasd dolor lorem sit justo rebum stet justo elitr dolor amet sit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
                     <div class="blog-item">
                         <div class="position-relative">
                             <img class="img-fluid w-100 rounded-top" src="img/cover-for-cambodia-church.webp" alt="">
