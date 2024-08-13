@@ -1,21 +1,15 @@
 const announcements = [
     {
-        title: "សប្តាហ៍ទី ១៤​ រដូវធម្មតា",
-        date: "July 10, 2023",
-        content: "This is the content for Announcement 1.",
-        pdfLink: "https://drive.google.com/file/d/14wEoIG4ObvsbnX6tmkJEE39oFfhu2pKM/preview"
-    },
-    {
-        title: "សប្តាហ៍ទី ១៥​ រដូវធម្មតា",
+        title: "សប្តាហ៍ទី ១៩​ រដូវធម្មតា",
         date: "July 11, 2023",
         content: "This is the content for Announcement 2.",
-        pdfLink: "https://drive.google.com/file/d/1CnjrqarJPLL1Zv8qVBBWJ4Z_HMqVDO60/preview"
+        pdfLink: "https://drive.google.com/file/d/1v9VCwQGJD-3cdVwBAFxQyv_XJZZcJmyr/preview"
     },
     {
-        title: "សប្តាហ៍ទី ១៦​ រដូវធម្មតា",
+        title: "សប្តាហ៍ទី ១៨​ រដូវធម្មតា",
         date: "July 11, 2023",
         content: "This is the content for Announcement 2.",
-        pdfLink: "https://drive.google.com/file/d/14LhmH68U4Xe73QHuYxN6U8nc65deHPMU/preview"
+        pdfLink: "https://drive.google.com/file/d/1yhXxx2aZgonRYXexe9uU65kpYOCkCkX1/preview"
     },
     {
         title: "សប្តាហ៍ទី ១៧​ រដូវធម្មតា",
@@ -24,17 +18,24 @@ const announcements = [
         pdfLink: "https://drive.google.com/file/d/1SURZH8Fap_ESsdEr_vn76zUhNFcGiEJ1/preview"
     },
     {
-        title: "Announcement 2",
+        title: "សប្តាហ៍ទី ១៦​ រដូវធម្មតា",
         date: "July 11, 2023",
         content: "This is the content for Announcement 2.",
-        pdfLink: "path/to/announcement2.pdf"
+        pdfLink: "https://drive.google.com/file/d/14LhmH68U4Xe73QHuYxN6U8nc65deHPMU/preview"
     },
     {
-        title: "Announcement 2",
+        title: "សប្តាហ៍ទី ១៥​ រដូវធម្មតា",
         date: "July 11, 2023",
         content: "This is the content for Announcement 2.",
-        pdfLink: "path/to/announcement2.pdf"
+        pdfLink: "https://drive.google.com/file/d/1CnjrqarJPLL1Zv8qVBBWJ4Z_HMqVDO60/preview"
     },
+    {
+        title: "សប្តាហ៍ទី ១៤​ រដូវធម្មតា",
+        date: "July 10, 2023",
+        content: "This is the content for Announcement 1.",
+        pdfLink: "https://drive.google.com/file/d/14wEoIG4ObvsbnX6tmkJEE39oFfhu2pKM/preview"
+    },
+    
     {
         title: "Announcement 2",
         date: "July 11, 2023",
