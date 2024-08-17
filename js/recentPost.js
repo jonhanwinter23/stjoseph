@@ -1,5 +1,11 @@
 const announcements = [
     {
+        title: "សប្តាហ៍ទី ២០​ រដូវធម្មតា",
+        date: "July 11, 2023",
+        content: "This is the content for Announcement 2.",
+        pdfLink: "https://drive.google.com/file/d/13ovWCpTCac7hzuaDtiRTvK5aREOln3KG/preview"
+    },
+    {
         title: "សប្តាហ៍ទី ១៩​ រដូវធម្មតា",
         date: "July 11, 2023",
         content: "This is the content for Announcement 2.",
