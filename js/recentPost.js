@@ -1,5 +1,17 @@
 const announcements = [
     {
+        title: "សប្តាហ៍ទី ២៤​ រដូវធម្មតា",
+        date: "July 11, 2023",
+        content: "This is the content for Announcement 2.",
+        pdfLink: "https://drive.google.com/file/d/11rFPrIgwrkfqXqnB9QJSfsnO_VOFWJ0y/preview"
+    },
+    {
+        title: "សប្តាហ៍ទី ២៣​ រដូវធម្មតា",
+        date: "July 11, 2023",
+        content: "This is the content for Announcement 2.",
+        pdfLink: "https://drive.google.com/file/d/11rFPrIgwrkfqXqnB9QJSfsnO_VOFWJ0y/preview"
+    },
+    {
         title: "សប្តាហ៍ទី ២២​ រដូវធម្មតា",
         date: "July 11, 2023",
         content: "This is the content for Announcement 2.",
